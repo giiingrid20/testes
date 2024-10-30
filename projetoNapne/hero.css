@@ -5,7 +5,7 @@
 
 
 header {
-  max-width: 1440px;
+  max-width: 1200px;
   height: 68px;
   display: flex;
   align-items: center;
@@ -15,4 +15,37 @@ header {
 
 .links {
   display: flex;
+}
+
+.link > a{
+  text-decoration: none;
+  color: #0F172A;
+}
+
+
+
+button > a{
+  text-decoration: none;
+  background-color: #3E8C3A;
+  color: white;
+
+}
+
+.bVerde > button{
+  width: 92px;
+  height: 44px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: #3E8C3A;
+  color: white;
+  width: 92px;
+  height: 44px;
+}
+
+.bVerde > button > a {
+  text-decoration: none;
+  color: inherit; /* Herda a cor do botão */
 }
