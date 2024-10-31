@@ -10,8 +10,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: auto; /* Centraliza horizontalmente */
+  position: fixed;
+  top: 0; /* Posiciona no topo */
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: white;
 }
+
 
 .links {
   display: flex;
@@ -40,7 +47,6 @@ header.barraNav {
   margin-right: 20px;
 }
 
-/*links do header*/
 .link > a{
   text-decoration: none;
   color: #0F172A;
@@ -66,7 +72,7 @@ button > a{
   
 }
 
-button {
+button{
   border: none;
   border-radius: 5px;
   background-color: #3E8C3A;
@@ -77,20 +83,37 @@ button {
 
 .bVerde > button > a {
   text-decoration: none;
-  color: inherit; /* Herda a cor do botão */
+  color: inherit; 
 }
 
 
-
+/*hero começa aqui*/
 
 .hero{
   max-width: 1200px;
   height: 800px;
   margin: auto;
   display: flex;
+  margin-top: 100px;
+}
+
+.botaoHero > button{
+  background-color: #F7CE46 !important;
+  border: none;
+  width: 154px;
+  height: 48px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
   
 }
 
+.botaoHero > button > a{
+  color:black  ;
+  background-color: #F7CE46 !important;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+  
 
 
 .tituloHero > h1{
@@ -116,3 +139,16 @@ button {
   
 }
 
+.paragrafo > p{
+  font-family: 'Poppins', sans-serif;
+  width: 425px;
+}
+
+
+.Equipe{
+  width: 1200px;
+  height: 1416px;
+  margin: auto;
+  margin-top: 50px;
+  border-top: solid 2px #3E8C3A;
+}
